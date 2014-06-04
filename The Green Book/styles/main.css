@@ -367,3 +367,16 @@ ul > li > span{
  color: #000000;
  font-weight: bold;
 }
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn{
+    color: #ffffff;
+    background-color: #7ac446;
+    
+}
+
+.Prefacefont{
+    margin: 10px;
+    
+}
+
+
