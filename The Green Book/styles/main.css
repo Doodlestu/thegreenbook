@@ -127,7 +127,7 @@
 
 .flyout-content {
     opacity: 0.9;
-    padding: 0px;
+    padding: 10px;
 }
 
 .flyout-text-font p,ol,li,strong {
@@ -374,7 +374,7 @@ ul > li > span{
     
 }
 
-.Prefacefont{
+.font{
     margin: 10px;
     
 }
