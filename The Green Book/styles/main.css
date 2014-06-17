@@ -365,7 +365,7 @@
 }
 ul > li > span{
  color: #000000;
- font-weight: bold;
+ font-weight: normal;
 }
 
 .ui-collapsible-inset .ui-collapsible-heading .ui-btn{
