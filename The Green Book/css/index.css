@@ -78,6 +78,17 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    font-size:24px;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif; 
+    font-weight:bold;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+
 .event {
     border-radius:4px;
     -webkit-border-radius:4px;
