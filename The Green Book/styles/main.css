@@ -149,7 +149,7 @@ background-image:url('bg-images/SkyTheme_Ipadsize-01.gif');
     padding: 10px;
 }
 
-.flyout-text-font p, ol, li, strong
+.flyout-text-font p, ol, li, strong, th, td
 {
     font-family: 'Calibri';
 }
@@ -348,7 +348,22 @@ border-color:red;
     font-weight: bold;
     padding-left: 10px;
 }
- 
+#tablehead
+{ 
+    font-family: 'Calibri';
+    font-size: 1.5em;
+    color: #228B22;
+    font-weight: bold;
+}
+
+#tabletext
+{
+    font-family: 'Calibri';
+    font-size: 1em;
+    color: #228B22;
+    font-weight: bold;
+}
+
 #secondtitle
 {
     font-family: 'Calibri';
@@ -374,12 +389,11 @@ border-color:red;
     font-weight: bold;
 }
 
-
 #fifthtitle
 {
     font-family: 'Calibri';
-    font-size: 1em;
-    color: #303030;
+    font-size: 1.3em;
+    color: #000000;
     font-weight: bold;
 }
 
