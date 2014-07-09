@@ -351,7 +351,7 @@ border-color:red;
 #tablehead
 { 
     font-family: 'Calibri';
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #228B22;
     font-weight: bold;
 }
@@ -392,11 +392,15 @@ border-color:red;
 #fifthtitle
 {
     font-family: 'Calibri';
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: #000000;
     font-weight: bold;
 }
-
+#notetext
+{
+    font-family: 'Calibri';
+    font-size: .8em;
+     }
 #box
 {
     margin-right: -30px;
