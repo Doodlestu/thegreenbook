@@ -399,8 +399,10 @@ border-color:red;
 #notetext
 {
     font-family: 'Calibri';
+    color: #228B22;
     font-size: .8em;
-     }
+    font-weight: bold;
+}
 #box
 {
     margin-right: -30px;
