@@ -44,9 +44,7 @@
     clear: both;
 }
 
-/*.bgimage {
-background-image:url('bg-images/SkyTheme_Ipadsize-01.gif');
-}*/
+
 
 
 
@@ -55,9 +53,9 @@ background-image:url('bg-images/SkyTheme_Ipadsize-01.gif');
     height: 50px;
     width: 100%;
     text-decoration: none !important;
-    padding-top: 10px;
+    padding-top: 15px;
     font-family: 'Calibri';
-    font-size: 2em; 
+    font-size: 1.5em; 
     text-align: center;
     color: #ffffff; 
     background-color: #00a95c;
@@ -92,42 +90,38 @@ background-image:url('bg-images/SkyTheme_Ipadsize-01.gif');
     margin-top: 10px;
 }
 
-.icon
+/*.icon
 {
     float: left;
     height: 40px;
-}
+}*/
 
-.icon-img
+/*.icon-img
 {
     display: inline-block;
     background: url(styles/images/icons/up.png);
     background-repeat: no-repeat;
-}
+}*/
 
-.icon-img-width
+/*.icon-img-width
 {
     height: 40px;
     width: 40px;
-}
+}*/
 
-.icon-img-down
+/*.icon-img-down
 {
     display: inline-block;
     background: url(styles/images/icons/down.png);
     background-repeat: no-repeat;
-}
+}*/
 
-.header-text-width
-{
-    width: 500px;
-    margin: 10px auto;
-}
+
 
 .header-text-font
 {
     font-family: 'Calibri';
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .header-text
@@ -309,7 +303,7 @@ border-color:red;
     padding: 10px 30px;
     background: #00a95c;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.3em;
     vertical-align: middle;
     display: block;
     text-align: center; 
@@ -325,7 +319,7 @@ border-color:red;
     border-width: 3px;
     border-color: black;
     color: #ffffff;
-    font-size: 1.5em;
+    font-size: 1.2em;
     vertical-align: middle;
     display: block;
     text-align: center; 
@@ -335,7 +329,7 @@ border-color:red;
 #maintitle
 {
     font-family: 'Calibri';
-    font-size: 3em;
+    font-size: 2em;
     color: #00a95c;
     font-weight: bold;
     padding-left: 10px; 
@@ -343,7 +337,7 @@ border-color:red;
 #maintitle2
 {
     font-family: 'Calibri';
-    font-size: 3em;
+    font-size: 1.3em;
     color: #7ac446;
     font-weight: bold;
     padding-left: 10px;
@@ -351,7 +345,7 @@ border-color:red;
 #tablehead
 { 
     font-family: 'Calibri';
-    font-size: 1.4em;
+    font-size: 1.2em;
     color: #228B22;
     font-weight: bold;
 }
@@ -367,7 +361,7 @@ border-color:red;
 #secondtitle
 {
     font-family: 'Calibri';
-    font-size: 2em;
+    font-size: 1em;
     color: #00a95c;
     font-weight: bold;
     padding-left: 10px;
@@ -409,8 +403,8 @@ border-color:red;
     margin-top: -40px;
     float: right;
     font-family: 'Calibri';
-    padding: 20px 15px;
-    font-size: 2em;
+    padding: 20px 20px;
+    font-size: 1.2em;
     color: #ffffff;
     font-weight: bold;
     background-color: #7ac446;
@@ -423,11 +417,11 @@ border-color:red;
 #box2
 {
     margin-right: -10px;
-    margin-top: -50px;
+    margin-top: -40px;
     float: right;
     font-family: 'Myriad Pro';
-    padding: 20px 15px;
-    font-size: 3em;
+    padding: 15px 15px;
+    font-size: 2em;
     color: #ffffff;
     font-weight: bold;
     background-color: #7ac446;
@@ -453,4 +447,48 @@ ul > li > span
 .font
 {
     margin: 10px;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+   
+    
+    
+    
+}
+
+@media only screen and (min-width: 600px) {
+   #header{
+      font-size: 2em; 
+   }
+  
+    Bttnstyle01 a {
+     font-size: 1.5em;
+    }
+     Bttnstyle02 a {
+     font-size: 1.5em;
+    }
+    #maintitle {
+    font-size: 3em;
+    }
+	#maintitle2 {
+     font-size: 3em;
+    }
+    #secondtitle {
+    font-size: 2em;
+    }
+	#thirdtitle{
+    font-size: 2em;
+    }
+    #box {
+    margin-right: -30px;
+    margin-top: -40px;
+    font-size: 2em;
+    }
+	#box2 {
+    margin-right: -10px;
+    margin-top: -50px;
+    font-size: 3em;
+    }
 }
