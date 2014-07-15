@@ -390,6 +390,11 @@ border-color:red;
     color: #000000;
     font-weight: bold;
 }
+
+.heading01{
+    color:#939598; 
+    font-weight: bold;
+}
 #notetext
 {
     font-family: 'Calibri';
