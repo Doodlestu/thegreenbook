@@ -296,6 +296,31 @@ border-style:solid;
 border-color:red;
 }*/
 
+@font-face {
+    font-family: 'Calibri';
+    src: url('calibri-webfont.eot');
+    src: url('calibri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibri-webfont.woff') format('woff'),
+         url('calibri-webfont.ttf') format('truetype'),
+         url('calibri-webfont.svg#CalibriRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('calibri-webfont.eot');
+    src: url('calibri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibri-webfont.woff') format('woff'),
+         url('calibri-webfont.ttf') format('truetype'),
+         url('calibri-webfont.svg#CalibriRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
 .Bttnstyle01 a
 {
     text-decoration: none !important;
