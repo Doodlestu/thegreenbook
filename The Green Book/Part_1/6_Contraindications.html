@@ -1,195 +1,415 @@
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Contraindications and
-special considerations</title>
+    <head>
+        <title>Contraindications and
+            special considerations</title>
 
-    <link href="../styles/main.css" rel="stylesheet" />
-    <script src="../scripts/jquery-1.10.2.min.js"></script>
-    
+        <link href="../styles/main.css" rel="stylesheet" />
+        <script src="../scripts/jquery-1.10.2.min.js"></script>
 
+        <script src="../scripts/Infobox.js"></script>
 
-    <script src="../scripts/Infobox.js"></script>
-    
-    
-    
-	<link href="../jquery-mobile/styles/jquery.mobile-1.4.2.min.css" rel="stylesheet" />
-	
-   
-    
+        <link href="../jquery-mobile/styles/jquery.mobile-1.4.2.min.css" rel="stylesheet" />
 
-<!--	<script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>-->
-	<!--<script src="jquery-mobile/js/jquery.mobile-1.4.2.min.js" type="text/javascript"></script>-->
-	
+        <!--	<script src="jquery-mobile/js/jquery-1.9.1.min.js" type="text/javascript"></script>-->
+        <!--<script src="jquery-mobile/js/jquery.mobile-1.4.2.min.js" type="text/javascript"></script>-->
 
-
-</head>
-<body>
+    </head>
+    <body>
         <!--Header-->
-		        <div  id="header"><a href="##" onClick="history.go(-1); return false;" class="ui-btn-left" ><img src="../styles/images/icons/icon_back.png"></a> 
-	The Green Book
-			<a href="../index.html" class="ui-btn-right"><img src="../styles/images/icons/icon_Home.png"></a>
-	
-		    </div>
-		    <!--Content-->
-			<br> 
-			<div id="maintitle2">Contraindications </div>
-			<div id="box2">6</div>
-          <div id="maintitle2">and special considerations</div>	
-   <!-- First Control   Starts Here-->
-    <div class="info-box-ctrl">
-        <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-1">
-            <div class="icon"><span class="icon-img icon-img-width icon-img-up"></span></div>
-            <div class="header-text header-text-font header-text-width"><span>General contraindications to vaccination</span></div>
+        <div  id="header">
+            <a href="##" onClick="history.go(-1); return false;" class="ui-btn-left" >
+                <img src="../styles/images/icons/icon_back.png">
+            </a>
+            The Green Book
+            <a href="../index.html" class="ui-btn-right">
+                <img src="../styles/images/icons/icon_Home.png">
+            </a>
+
         </div>
-        <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-1">
-            <div class="flyout-content flyout-text-font">
-                <p>Almost all individuals can be safely vaccinated with all vaccines. In very few individuals, vaccination is contraindicated or should be deferred. Where there is doubt, rather than withholding vaccine, advice should be sought from an appropriate consultant paediatrician or physician, the immunisation co-ordinator or consultant in health protection.</p>
-                <p>All vaccines are contraindicated in those who have had:</p>
-                <ul>
-                    <li><span>a confirmed anaphylactic reaction to a previous dose of a vaccine containing the same antigens, or</span></li>
-                    <li><span>a confirmed anaphylactic reaction to another component contained in the relevant vaccine, e.g. neomycin, streptomycin or polymyxin B (which may be present in trace amounts in some vaccines).</span></li>
-                </ul>
-                <p>Live vaccines may be temporarily contraindicated in individuals who are:</p>
-                <ul>
-                    <li><span>immunosuppressed (see below)</span></li>
-                    <li><span>pregnant.</span></li>
-                </ul>
-              
-                  
-                    
+        <!--Content-->
+        <br>
+        <div id="maintitle2">Contraindications </div>
+        <div id="box2">6</div>
+        <div id="maintitle2">and special considerations</div>
+        <!-- First Control   Starts Here-->
+        <div class="info-box-ctrl">
+            <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-1">
+                <div class="icon">
+                    <span class="icon-img icon-img-width icon-img-up"></span>
+                </div>
+                <div class="header-text header-text-font header-text-width">
+                    <span>General contraindications to vaccination</span>
+                </div>
+            </div>
+            <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-1">
+                <div class="flyout-content flyout-text-font">
+                    <p>Almost all individuals can be safely vaccinated with all vaccines. In very few individuals, vaccination is contraindicated or should be deferred. Where there is doubt, rather than withholding vaccine, advice should be sought from an appropriate consultant paediatrician or physician, the immunisation co-ordinator or consultant in health protection.</p>
+                    <p>All vaccines are contraindicated in those who have had:</p>
+                    <ul>
+                        <li>
+                            <span>a confirmed anaphylactic reaction to a previous dose of a vaccine containing the same antigens, or</span>
+                        </li>
+                        <li>
+                            <span>a confirmed anaphylactic reaction to another component contained in the relevant vaccine, e.g. neomycin, streptomycin or polymyxin B (which may be present in trace amounts in some vaccines).</span>
+                        </li>
+                    </ul>
+                    <p>Live vaccines may be temporarily contraindicated in individuals who are:</p>
+                    <ul>
+                        <li>
+                            <span>immunosuppressed (see below)</span>
+                        </li>
+                        <li>
+                            <span>pregnant.</span>
+                        </li>
+                    </ul>
+
                 </div>
 
             </div>
         </div>
-   
-<!-- First Control   Ends Here-->
-<!-- 2nd Control   Starts Here-->
-     <div class="info-box-ctrl">
-        <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-2">
-            <div class="icon"><span class="icon-img icon-img-width" id="icon"></span></div>
-            <div class="header-text header-text-font header-text-width"><span>Specific contraindications</span></div>
-        </div>
-        <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-2">
-            <div class="flyout-content flyout-text-font">
-                <p>Some vaccines are contraindicated in specific groups. These are outlined in the  relevant chapters.</p>
-                <p><div id="thirdtitle">Egg allergy</div></p>
-                <p>Individuals with a confirmed anaphylactic reaction to egg should not receive yellow fever vaccine. Individuals who have egg allergy may be at increased risk of reaction to some influenza vaccines. Chapter 19 contains detailed information on administration of influenza vaccine in these patients.</p>
-                <p>All children with egg allergy should receive the MMR vaccination as a routine procedure in primary care (Clark <i>et al</i>., 2010). Recent data suggest that anaphylactic reactions to MMR vaccine are not associated with hypersensitivity to egg antigens but to other components of the vaccine (such as gelatin) (Fox and Lack, 2003). In three large studies with a combined total of over 1000 patients with egg allergy, no severe cardiorespiratory reactions were reported after MMR vaccination (Fasano <i>et al</i>., 1992; Freigang <i>et al</i>., 1994; Aickin <i>et al</i>., 1994; Khakoo and Lack, 2000). Children who have had documented anaphylaxis to the vaccine itself should be assessed by an allergist (Clark <i>et al</i>., 2010).</p>
-                <p><div id="thirdtitle">Severe latex allergy</div></p>
-                <p>Some pre-filled syringes may contain latex proteins in the tip cap and/or rubber plunger of the syringe. Similarly, the stoppers of some vaccines supplied in vials may contain latex proteins.</p>
-                <p>It is theoretically possible that latex protein from these tip caps, plungers or vial stoppers may cause allergic reactions when the vaccines are administered to latex-sensitive individuals. There is little evidence that such a risk exists and any such risk would be extremely small (Russell <i>et al</i>., 2004). Millions of doses of vaccines in pre-filled syringes are administered every year and the risk of anaphylaxis due to any allergen following immunisation is about one per million vaccine doses (see Chapter 8).</p>
-                <p>As a precaution, if an individual has a history of severe (i.e. anaphylactic) allergy to latex, vaccines supplied in vials or syringes that contain latex should not be administered, unless the benefit of vaccination outweighs the risk of an allergic reaction to the vaccine.</p>
-                <p>If possible, an alternative latex-free vaccine should be administered.</p>
-                <p>For latex allergies other than anaphylactic allergies (e.g. a history of contact allergy to latex gloves), vaccines supplied in vials or syringes that contain latex can be administered (ACIP, 2006).</p>
-                <p><div id="thirdtitle">Pregnancy</div></p>
-                <p>There is a theoretical concern that vaccinating pregnant women with live vaccines may infect the foetus. There is no evidence that any live vaccine (including rubella and MMR) causes birth defects. However, since the theoretical possibility of foetal infection exists, live vaccines should generally be delayed until after delivery. Termination of pregnancy following inadvertent immunisation is not recommended.</p>
-                <p>Since inactivated vaccines cannot replicate they cannot cause infection in either the mother or the foetus. However, inactivated vaccines should be administered to pregnant women only if protection is required without delay.</p>
-                <p><div id="thirdtitle">Immunosuppression</div></p>
-                <p>Live vaccines can, in some situations, cause severe or fatal infections in immunosuppressed individuals due to extensive replication of the vaccine strain. For this reason, severely immunosuppressed individuals (see bullet list below) should not be given live vaccines, and vaccination in immunosuppressed individuals should only be conducted in consultation with an appropriate specialist.</p>
-                <p>Inactivated vaccines cannot replicate and so may be administered to immunosuppressed individuals, although they may elicit a lower response than in immunocompetent individuals.</p>
-                <p>The following individuals should not receive live vaccines:</p>
-                <ul>
-                    <li><span>patients with evidence of severe primary immunodeficiency, for example, severe combined immunodeficiency, Wiskott-Aldrich syndrome and other combined immunodeficiency syndromes</span></li>
-                    <li><span>patients currently being treated for malignant disease with immunosuppressive chemotherapy or radiotherapy, or who have terminated such treatment within at least the last six months</span></li>
-                    <li><span>patients who have received a solid organ transplant and are  currently on immunosuppressive treatment</span></li>
-                    <li><span>patients who have received a bone marrow transplant, until at least  12 months after finishing all immunosuppressive treatment, or longer where the patient has developed graft-versus-host disease. The decision to vaccinate should depend upon the type of transplant and the immune status of the patient. Further advice can be found in current guidance produced by the European Group for Blood and Marrow Transplantation (www.ebmt.org) and the Royal College of Paediatrics and Child Health (RCPCH) (www.rcpch.ac.uk)</span></li>
-                </ul>
-                <p></p>
-                <ul>
-                    <li><span>patients receiving systemic high-dose steroids, until at least three months  after treatment has stopped. This would include children who receive prednisolone, orally or rectally, at a daily dose (or its equivalent) of 2mg/ kg/day for at least one week, or 1mg/kg/day for one month. For adults, an equivalent dose is harder to define but immunosuppression should be considered in those who receive at least 40mg of prednisolone per day for more than one week. Occasionally, individuals on lower doses of steroids may be immunosuppressed and at increased risk from infections. In those cases, live vaccines should be considered with caution, in discussion with a relevant specialist physician</span></li>
-                    <li><span>patients receiving other types of immunosuppressive drugs (e.g. azathioprine,  cyclosporin, methotrexate, cyclophosphamide, leflunomide and the newer cytokine inhibitors) alone or in combination with lower doses of steroids, until at least six months after terminating such treatment. The advice of the physician in charge or immunologist should be sought</span></li>
-                    <li><span>patients with immunosuppression due to human immunodeficiency virus (HIV) infection (see section below).</span></li>
-                </ul>
-                <p><div id="thirdtitle">Other considerations</div></p>
-                <p>Many patients with relatively minor immunodeficiencies can, and indeed should, receive all recommended vaccinations, including live vaccines. Where there is doubt or a relatively severe immunodeficiency is present, it is important to obtain individual specialist advice.</p>
-                <p>Some patients with 22q11 deletion syndromes, including partial DiGeorge syndrome, may be able to receive live vaccines safely provided that they have no evidence of severe immunocompromise (Perez <i>t al</i>., 2003). Specialist advice should be sought.</p>
-                <p>Non-systemic corticosteroids, such as aerosols or topical or intra-articular preparations, do not cause systemic immunosuppression. Therefore, administration of live vaccines is not contraindicated.</p>
-                <p>Live vaccines are likely to be safe in those receiving other immunomodulating drugs, for example interferon. However, advice should be sought from the specialist in charge of the therapy to ensure that the patient has not been immunosuppressed by the treatment. Deferral of immunisation may be suggested to avoid side effects of the drugs being confused with reactions to vaccination.</p>
-                <p>Replacement schedules of corticosteroids for people with adrenal insufficiency do not cause immunosuppression and are not, therefore, contraindications for administration of live vaccines.</p>
-                <p>For further information, please refer to the RCPCH Best Practice Statement (www.rcpch.ac.uk).</p>
-                <p><div id="thirdtitle">HIV infection</div></p>
-                <p>HIV-positive individuals should be given MMR vaccine according to national recommendations unless they have evidence of severe immunosuppression (Table 6.1). For children under 12 months of age, CD4 counts may not be an accurate representation of levels of immunosuppression and immune status should be assessed by an expert using a combination of laboratory and clinical criteria.</p>
-                <p>Varicella vaccine is contraindicated for HIV-infected individuals with severe immunosuppression (Table 6.1). This guidance may be relaxed in the near future, as evidence is emerging that patients with moderate immunosuppression can be safely vaccinated and will make an adequate response (M Levine, pers. comm., 2005). For HIV-infected individuals with no immunosuppression who are susceptible to varicella, vaccine is indicated to reduce the risk of serious chickenpox or zoster should their condition deteriorate.</p>
-                <p>Because there have been reports of dissemination of Bacillus Calmette-Guérin (BCG) in HIV-positive individuals, such individuals should <b>not</b> receive BCG vaccine in the UK (Talbot <i>et al</i>., 1997; Fallo <i>et al</i>., 2005; Langley <i>et al</i>., 2004).</p>
-                <p>Infants born to HIV-positive mothers where the infant has an indeterminate HIV status may have an increased risk of contracting tuberculosis. Where indicated, BCG vaccine can be given after two appropriately timed negative postnatal PCR blood tests for HIV infection. Unless a mother is known to be at risk of HIV, it is not necessary to test her before giving BCG vaccine to her infant. Yellow fever vaccine should not be given to HIV-positive individuals. If such individuals intend to visit countries where a yellow fever certificate is required for entry but where there is no risk of exposure, then they should obtain a letter of exemption from a medical practitioner. Fatal myeloencephalitis following yellow fever vaccination has been reported in an individual with severe HIV-induced immunosuppression (Kengsakul <i>et al</i>., 2002). There are limited data, however, suggesting that yellow fever vaccine may be given safely to HIV-infected persons with a CD4 count that is greater than 200 and a suppressed HIV viral load (Receveur <i>et al</i>., 2000; Tattevin <i>et al</i>., 2004). Therefore, if the yellow fever risk is unavoidable, specialist advice should be sought with a view to the vaccination of asymptomatic HIV-infected individuals.</p>
-                <p>Further guidance is provided by the Royal College of Paediatrics and Child Health (www.rcpch.ac.uk), the British HIV Association (BHIVA) <i>Immunisation guidelines for HIV-infected adults</i> (BHIVA, 2006) and the Children&#146;s HIV Association of UK and Ireland (CHIVA) immunisation guidelines  (www.bhiva.org/chiva).</p>
-                
-               
-    </div>
-   </div>
-         </div>
 
-<!-- 3nd Control   starts  Here-->
-       <div class="info-box-ctrl">
-        <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-3">
-            <div class="icon"><span class="icon-img icon-img-width icon-img-up"></span></div>
-            <div class="header-text header-text-font header-text-width"><span>Deferral of immunisation</span></div>
-        </div>
-        <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-3">
-            <div class="flyout-content flyout-text-font">
-                <p>There will be very few occasions when deferral of immunisation is required. Minor illnesses without fever or systemic upset are not valid reasons to postpone immunisation. If an individual is acutely unwell, immunisation may be postponed until they have fully recovered. This is to avoid wrongly attributing any new symptom or the progression of symptoms to the vaccine.</p>
-                <p>In individuals with an evolving neurological condition, immunisation should be deferred until the neurological condition has resolved or stabilised. Immunoglobulin may interfere with the immune response to live vaccine viruses because it may contain antibodies to measles, varicella and other viruses. Live virus vaccines should therefore be given at least three weeks before or three months after an injection of immunoglobulin. This does not apply to yellow fever vaccine, because immunoglobulin used in the UK is unlikely to contain high levels of antibody to this virus.</p>
-                <p><b>The following conditions are NOT contraindications to routine immunisation (in some of these situations, additional precautions may be required – refer to the relevant chapter for further information):</b></p>
-                <ul>
-                    <li><span>family history of any adverse reactions following immunisation</span></li>
-                    <li><span>previous history of the disease (with the exception of BCG for people who have evidence of past exposure to tuberculosis)</span></li>
-                    <li><span>contact with an infectious disease</span></li>
-                    <li><span>premature birth</span></li>
-                    <li><span>stable neurological conditions such as cerebral palsy and Down&#146;s syndrome</span></li>
-                    <li><span>asthma, eczema or hay fever</span></li>
-                    <li><span>mild self-limiting illness without fever, e.g. runny nose</span></li>
-                    <li><span>treatment with antibiotics or locally acting (e.g. topical or inhaled) steroids</span></li>
-                    <li><span>child&#146;s mother or someone in the household being pregnant</span></li>
-                    <li><span>currently breast-feeding or being breast-fed</span></li>
-                    <li><span>history of jaundice after birth</span></li>
-                    <li><span>under a certain weight</span></li>
-                    <li><span>being over the age recommended in the routine childhood immunisation schedule</span></li>
-                    <li><span>personal history of febrile convulsions or epilepsy</span></li>
-                    <li><span>close family history (parent or sibling) of febrile convulsions or epilepsy</span></li>
-                    <li><span>being a sibling or close contact of an immunosuppressed individual</span></li>
-                    <li><span>recent or imminent elective surgery</span></li>
-                    <li><span>imminent general anaesthesia</span></li>
-                    <li><span>unknown or inadequately documented immunisation history.</span></li>                    
-                </ul>
+        <!-- First Control   Ends Here-->
+        <!-- 2nd Control   Starts Here-->
+        <div class="info-box-ctrl">
+            <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-2">
+                <div class="icon">
+                    <span class="icon-img icon-img-width" id="icon"></span>
+                </div>
+                <div class="header-text header-text-font header-text-width">
+                    <span>Specific contraindications</span>
+                </div>
+            </div>
+            <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-2">
+                <div class="flyout-content flyout-text-font">
+                    <p>Some vaccines are contraindicated in specific groups. These are outlined in the relevant chapters.</p>
+                    <p>
+                        <div id="thirdtitle">Egg allergy</div>
+                    </p>
+                    <p>Individuals with a confirmed anaphylactic reaction to egg should not receive yellow fever vaccine. Individuals who have egg allergy may be at increased risk of reaction to some influenza vaccines. Chapter 19 contains detailed information on administration of influenza vaccine in these patients.</p>
+                    <p>
+                        All children with egg allergy should receive the MMR vaccination as a routine procedure in primary care (Clark <i>et al</i>., 2010). Recent data suggest that anaphylactic reactions to MMR vaccine are not associated with hypersensitivity to egg antigens but to other components of the vaccine (such as gelatin) (Fox and Lack, 2003). In three large studies with a combined total of over 1000 patients with egg allergy, no severe cardiorespiratory reactions were reported after MMR vaccination (Fasano <i>et al</i>., 1992; Freigang <i>et al</i>., 1994; Aickin <i>et al</i>., 1994; Khakoo and Lack, 2000). Children who have had documented anaphylaxis to the vaccine itself should be assessed by an allergist (Clark <i>et al</i>., 2010).
+                    </p>
+                    <p>
+                        <div id="thirdtitle">Severe latex allergy</div>
+                    </p>
+                    <p>Some pre-filled syringes may contain latex proteins in the tip cap and/or rubber plunger of the syringe. Similarly, the stoppers of some vaccines supplied in vials may contain latex proteins.</p>
+                    <p>
+                        It is theoretically possible that latex protein from these tip caps, plungers or vial stoppers may cause allergic reactions when the vaccines are administered to latex-sensitive individuals. There is little evidence that such a risk exists and any such risk would be extremely small (Russell <i>et al</i>., 2004). Millions of doses of vaccines in pre-filled syringes are administered every year and the risk of anaphylaxis due to any allergen following immunisation is about one per million vaccine doses (see Chapter 8).
+                    </p>
+                    <p>As a precaution, if an individual has a history of severe (i.e. anaphylactic) allergy to latex, vaccines supplied in vials or syringes that contain latex should not be administered, unless the benefit of vaccination outweighs the risk of an allergic reaction to the vaccine.</p>
+                    <p>If possible, an alternative latex-free vaccine should be administered.</p>
+                    <p>For latex allergies other than anaphylactic allergies (e.g. a history of contact allergy to latex gloves), vaccines supplied in vials or syringes that contain latex can be administered (ACIP, 2006).</p>
+                    <p>
+                        <div id="thirdtitle">Pregnancy</div>
+                    </p>
+                    <p>There is a theoretical concern that vaccinating pregnant women with live vaccines may infect the foetus. There is no evidence that any live vaccine (including rubella and MMR) causes birth defects. However, since the theoretical possibility of foetal infection exists, live vaccines should generally be delayed until after delivery. Termination of pregnancy following inadvertent immunisation is not recommended.</p>
+                    <p>Since inactivated vaccines cannot replicate they cannot cause infection in either the mother or the foetus. However, inactivated vaccines should be administered to pregnant women only if protection is required without delay.</p>
+                    <p>
+                        <div id="thirdtitle">Immunosuppression</div>
+                    </p>
+                    <p>Live vaccines can, in some situations, cause severe or fatal infections in immunosuppressed individuals due to extensive replication of the vaccine strain. For this reason, severely immunosuppressed individuals (see bullet list below) should not be given live vaccines, and vaccination in immunosuppressed individuals should only be conducted in consultation with an appropriate specialist.</p>
+                    <p>Inactivated vaccines cannot replicate and so may be administered to immunosuppressed individuals, although they may elicit a lower response than in immunocompetent individuals.</p>
+                    <p>The following individuals should not receive live vaccines:</p>
+                    <ul>
+                        <li>
+                            <span>patients with evidence of severe primary immunodeficiency, for example, severe combined immunodeficiency, Wiskott-Aldrich syndrome and other combined immunodeficiency syndromes</span>
+                        </li>
+                        <li>
+                            <span>patients currently being treated for malignant disease with immunosuppressive chemotherapy or radiotherapy, or who have terminated such treatment within at least the last six months</span>
+                        </li>
+                        <li>
+                            <span>patients who have received a solid organ transplant and are currently on immunosuppressive treatment</span>
+                        </li>
+                        <li>
+                            <span>patients who have received a bone marrow transplant, until at least 12 months after finishing all immunosuppressive treatment, or longer where the patient has developed graft-versus-host disease. The decision to vaccinate should depend upon the type of transplant and the immune status of the patient. Further advice can be found in current guidance produced by the European Group for Blood and Marrow Transplantation (www.ebmt.org) and the Royal College of Paediatrics and Child Health (RCPCH) (www.rcpch.ac.uk)</span>
+                        </li>
+                    </ul>
+                    <p></p>
+                    <ul>
+                        <li>
+                            <span>patients receiving systemic high-dose steroids, until at least three months after treatment has stopped. This would include children who receive prednisolone, orally or rectally, at a daily dose (or its equivalent) of 2mg/ kg/day for at least one week, or 1mg/kg/day for one month. For adults, an equivalent dose is harder to define but immunosuppression should be considered in those who receive at least 40mg of prednisolone per day for more than one week. Occasionally, individuals on lower doses of steroids may be immunosuppressed and at increased risk from infections. In those cases, live vaccines should be considered with caution, in discussion with a relevant specialist physician</span>
+                        </li>
+                        <li>
+                            <span>patients receiving other types of immunosuppressive drugs (e.g. azathioprine, cyclosporin, methotrexate, cyclophosphamide, leflunomide and the newer cytokine inhibitors) alone or in combination with lower doses of steroids, until at least six months after terminating such treatment. The advice of the physician in charge or immunologist should be sought</span>
+                        </li>
+                        <li>
+                            <span>patients with immunosuppression due to human immunodeficiency virus (HIV) infection (see section below).</span>
+                        </li>
+                    </ul>
+                    <p>
+                        <div id="thirdtitle">Other considerations</div>
+                    </p>
+                    <p>Many patients with relatively minor immunodeficiencies can, and indeed should, receive all recommended vaccinations, including live vaccines. Where there is doubt or a relatively severe immunodeficiency is present, it is important to obtain individual specialist advice.</p>
+                    <p>
+                        Some patients with 22q11 deletion syndromes, including partial DiGeorge syndrome, may be able to receive live vaccines safely provided that they have no evidence of severe immunocompromise (Perez <i>t al</i>., 2003). Specialist advice should be sought.
+                    </p>
+                    <p>Non-systemic corticosteroids, such as aerosols or topical or intra-articular preparations, do not cause systemic immunosuppression. Therefore, administration of live vaccines is not contraindicated.</p>
+                    <p>Live vaccines are likely to be safe in those receiving other immunomodulating drugs, for example interferon. However, advice should be sought from the specialist in charge of the therapy to ensure that the patient has not been immunosuppressed by the treatment. Deferral of immunisation may be suggested to avoid side effects of the drugs being confused with reactions to vaccination.</p>
+                    <p>Replacement schedules of corticosteroids for people with adrenal insufficiency do not cause immunosuppression and are not, therefore, contraindications for administration of live vaccines.</p>
+                    <p>For further information, please refer to the RCPCH Best Practice Statement (www.rcpch.ac.uk).</p>
+                    <p>
+                        <div id="thirdtitle">HIV infection</div>
+                    </p>
+                    <p>HIV-positive individuals should be given MMR vaccine according to national recommendations unless they have evidence of severe immunosuppression (Table 6.1). For children under 12 months of age, CD4 counts may not be an accurate representation of levels of immunosuppression and immune status should be assessed by an expert using a combination of laboratory and clinical criteria.</p>
+                    <p>Varicella vaccine is contraindicated for HIV-infected individuals with severe immunosuppression (Table 6.1). This guidance may be relaxed in the near future, as evidence is emerging that patients with moderate immunosuppression can be safely vaccinated and will make an adequate response (M Levine, pers. comm., 2005). For HIV-infected individuals with no immunosuppression who are susceptible to varicella, vaccine is indicated to reduce the risk of serious chickenpox or zoster should their condition deteriorate.</p>
+
+                    <div id="tablehead">
+                        Table 6.1 Measure of immunosuppression by CD4 count
+                    </div>
+
               
 
-            </div>
-        </div>
-    </div>
-<!-- 4th Control -->
-<div class="info-box-ctrl">
-        <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-4">
-            <div class="icon"><span class="icon-img icon-img-width icon-img-up"></span></div>
-            <div class="header-text header-text-font header-text-width"><span>References</span></div>
-        </div>
-        <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-4">
-            <div class="flyout-content flyout-text-font">
-                <p>Advisory Committee on Immunization Practices (ACIP) (2006) MMWR 55(RR-15):30-31 www.cdc.gov/mmwr/PDF/rr/rr5515.pdf</p>
-                <p>Aickin R, Hill D and Kemp A (1994) Measles immunisation in children with allergy to egg. <i>BMJ</i> <b>308</b>: 223–5.</p>
-                <p>British HIV Association (2006) <i>Immunisation guidelines for HIV-infected adults</i>: www. bhiva.org/pdf/2006/Immunisation506.pdf.</p>
-                <p>Clark AT, Skypala I, Leech SC, <i>et al</i>. (2010). British Society for Allergy and Clinical Immunology guidelines for the management of egg allergy. <i>Clin Exp Allergy</i> <b>40</b>(8):1116-29.</p>
-                <p>English, French. Erratum in <i>Can Commun Dis Rep</i> (2005) Feb 1: <b>31</b>(3):40. www.phac-aspc.gc.ca/publicat/ccdr-rmtc/04vol30/acs-dcc-5/index.html</p>
-                <p>Fallo A, De Matteo E, Preciado MV et al. (2005) Epstein-Barr virus associated with primary CNS lymphoma and disseminated BCG infection in a child with AIDS. <i>Int J Infect Dis</i> <b>9</b>(2): 96–103.</p>
-                <p>Fasano MB, Wood RA, Cooke SK and Sampson HA (1992) Egg hypersensitivity and  adverse reactions to measles, mumps and rubella vaccine. <i>J Pediatr</i> <b>120</b>: 878–81.</p>
-                <p>Fox A and Lack G (2003) Egg allergy and MMR vaccination. <i>Br J Gen Pract</i> <b>53</b>: 801–2. </p>
-                <p>Freigang B, Jadavji TP and Freigang DW (1994) Lack of adverse reactions to measles,  mumps and rubella vaccine in egg-allergic children. <i>Ann Allergy</i> <b>73</b>: 486–8.</p>
-                <p>Khakoo GA and Lack G (2000) Recommendations for using MMR vaccine in children allergic to eggs. <i>BMJ</i> <b>320</b>: 929–32. </p>
-                <p>Kengsakul K, Sathirapongsasuti K and Punyagupta S (2002) Fatal myeloencephalitis following yellow fever vaccination in a case with HIV infection. <i>J Med Assoc Thai</i> <b>85</b>(1): 131–4</p>
-                <p>Langley J, Ellis E and Deeks S (2004) National Advisory Committee on Immunization; Health Canada First Nations; Inuit Health Branch. Statement on Bacille Calmette-Guérin (BCG) vaccine. <i>Can Commun Dis Rep</i> <b>1</b>(30): 1–11.</p>
-                <p>Perez EE, Bokszczanin A, McDonald-McGinn D <i>et al</i>. (2003) Safety of live viral vaccines in patients with chromosome 22q11.2 deletion syndrome (DiGeorge syndrome/ velocardiofacial syndrome). <i>Pediatrics</i> <b>112</b>(4): e325.</p>
-                <p>Russell M, Pool V and Kelso JM <i>et al</i>. (2004) Vaccination of persons allergic to latex: a review of safety data in the Vaccine Adverse Event Reporting System (VAERS). <i>Vaccine</i> <b>23</b>(5):664-7. www.hubmed.org/display.cgi?uids=15542187</p>
-                <p>Receveur MC, Thiebaut R, Vedy S <i>et al</i>. (2000) Yellow fever vaccination of human immunodeficiency virus-infected patients: report of two cases. <i>Clin Infect Dis</i> <b>31</b>(3): E7–8.</p>
-                <p>Talbot EA, Perkins MD, Silva SF and Frothingham R (1997) Disseminated Bacille Calmette-Guérin disease after vaccination: case report and review. <i>Clin Infect Dis</i> <b>24</b>(6): 1139–46.</p>
-                <p>Tattevin P, Depatureaux AG, Chapplain JM et al. (2004) Yellow fever vaccine is safe and effective in HIV-infected patients. <i>AIDS</i> <b>18</b>(5): 825–7.</p>
-               
-            </div>
-        </div>
-    </div>
-    
-                                  
- 
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <style>
+                        table, th, td
+                        {
+                            border: 1px solid black;
+                            border-collapse: collapse;
+                        }
+                    </style>
+                </head>
+                <body>
+                <col align="left">
+                <col align="left">
 
-</body>
+                <table style="font-size:13px;width:100%">
+                    <col align="left">
+                    <col align="left">
+                    <col align="right">
+
+                    <th>Age</th>
+                    <th>1-5 years </th>
+                    <th>6-12 years </th>
+                    <th>
+                        &#62;12 years
+                    </th>
+                    <tr>
+
+                        <td>No suppression</td>
+
+                        <td>
+                            <p>&le; 1000</p>
+                            <p>(15-24%) </p>
+
+                        </td>
+
+                        <td>
+                            <p>&le;500 </p>
+                            <p>(&le; 25%) </p>
+
+                        </td>
+
+                        <td>
+                            <p>&le;500 </p>
+                            <p>(&le;25%)</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td>Moderate suppression</td>
+
+                        <td>
+                            <p>500-999 </p>
+                            <p>(15-24%) </p>
+                        </td>
+                        <td>
+                            <p>200-499 </p>
+                            <p>(15-24%) </p>
+                        </td>
+                        <td>
+                        <p>200-499 </p>
+                        <p>(15-24%) </p>
+                    </tr>
+                    <tr>
+
+                        <td>Severe suppression</td>
+
+                        <td>
+                            <p>&lt;500</p>
+                            <p>(&lt;15%) </p>
+                        </td>
+                        <td>
+                            <p>&lt;200</p>
+                            <p>(&lt;15%) </p>
+                        </td>
+                        <td>
+                            <p>
+                                &lt;200
+                                <p></p>(&lt;15%)
+                            </p>
+                        </td>
+
+                    </tr>
+
+                </table>
+
+                <p></p>
+                
+                <div id="notetext">
+                    <p>
+                        Because there have been reports of dissemination of Bacillus Calmette-Guérin (BCG) in HIV-positive individuals, such individuals should <b>not</b> receive BCG vaccine in the UK (Talbot <i>et al</i>., 1997; Fallo <i>et al</i>., 2005; Langley <i>et al</i>., 2004).
+                    </p>  </div>
+                    <p>
+                    Infants born to HIV-positive mothers where the infant has an indeterminate HIV status may have an increased risk of contracting tuberculosis. Where indicated, BCG vaccine can be given after two appropriately timed negative postnatal PCR blood tests for HIV infection. Unless a mother is known to be at risk of HIV, it is not necessary to test her before giving BCG vaccine to her infant. Yellow fever vaccine should not be given to HIV-positive individuals. If such individuals intend to visit countries where a yellow fever certificate is required for entry but where there is no risk of exposure, then they should obtain a letter of exemption from a medical practitioner. Fatal myeloencephalitis following yellow fever vaccination has been reported in an individual with severe HIV-induced immunosuppression (Kengsakul <i>et al</i>., 2002). There are limited data, however, suggesting that yellow fever vaccine may be given safely to HIV-infected persons with a CD4 count that is greater than 200 and a suppressed HIV viral load (Receveur <i>et al</i>., 2000; Tattevin <i>et al</i>., 2004). Therefore, if the yellow fever risk is unavoidable, specialist advice should be sought with a view to the vaccination of asymptomatic HIV-infected individuals.
+              
+              
+                <p>
+                    Further guidance is provided by the Royal College of Paediatrics and Child Health (www.rcpch.ac.uk), the British HIV Association (BHIVA) <i>Immunisation guidelines for HIV-infected adults</i> (BHIVA, 2006) and the Children&#146;s HIV Association of UK and Ireland (CHIVA) immunisation guidelines (www.bhiva.org/chiva).
+                </p>
+
+            </div>
+        </div>
+                        </div>
+
+        <!-- 3nd Control   starts  Here-->
+        <div class="info-box-ctrl">
+            <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-3">
+                <div class="icon">
+                    <span class="icon-img icon-img-width icon-img-up"></span>
+                </div>
+                <div class="header-text header-text-font header-text-width">
+                    <span>Deferral of immunisation</span>
+                </div>
+            </div>
+            <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-3">
+                <div class="flyout-content flyout-text-font">
+                    <p>There will be very few occasions when deferral of immunisation is required. Minor illnesses without fever or systemic upset are not valid reasons to postpone immunisation. If an individual is acutely unwell, immunisation may be postponed until they have fully recovered. This is to avoid wrongly attributing any new symptom or the progression of symptoms to the vaccine.</p>
+                    <p>In individuals with an evolving neurological condition, immunisation should be deferred until the neurological condition has resolved or stabilised. Immunoglobulin may interfere with the immune response to live vaccine viruses because it may contain antibodies to measles, varicella and other viruses. Live virus vaccines should therefore be given at least three weeks before or three months after an injection of immunoglobulin. This does not apply to yellow fever vaccine, because immunoglobulin used in the UK is unlikely to contain high levels of antibody to this virus.</p></div>
+                    <p>
+                        <b>The following conditions are NOT contraindications to routine immunisation (in some of these situations, additional precautions may be required – refer to the relevant chapter for further information):</b>
+                    </p>
+                    <ul>
+                        <li>
+                            <span>family history of any adverse reactions following immunisation</span>
+                        </li>
+                        <li>
+                            <span>previous history of the disease (with the exception of BCG for people who have evidence of past exposure to tuberculosis)</span>
+                        </li>
+                        <li>
+                            <span>contact with an infectious disease</span>
+                        </li>
+                        <li>
+                            <span>premature birth</span>
+                        </li>
+                        <li>
+                            <span>stable neurological conditions such as cerebral palsy and Down&#146;s syndrome</span>
+                        </li>
+                        <li>
+                            <span>asthma, eczema or hay fever</span>
+                        </li>
+                        <li>
+                            <span>mild self-limiting illness without fever, e.g. runny nose</span>
+                        </li>
+                        <li>
+                            <span>treatment with antibiotics or locally acting (e.g. topical or inhaled) steroids</span>
+                        </li>
+                        <li>
+                            <span>child&#146;s mother or someone in the household being pregnant</span>
+                        </li>
+                        <li>
+                            <span>currently breast-feeding or being breast-fed</span>
+                        </li>
+                        <li>
+                            <span>history of jaundice after birth</span>
+                        </li>
+                        <li>
+                            <span>under a certain weight</span>
+                        </li>
+                        <li>
+                            <span>being over the age recommended in the routine childhood immunisation schedule</span>
+                        </li>
+                        <li>
+                            <span>personal history of febrile convulsions or epilepsy</span>
+                        </li>
+                        <li>
+                            <span>close family history (parent or sibling) of febrile convulsions or epilepsy</span>
+                        </li>
+                        <li>
+                            <span>being a sibling or close contact of an immunosuppressed individual</span>
+                        </li>
+                        <li>
+                            <span>recent or imminent elective surgery</span>
+                        </li>
+                        <li>
+                            <span>imminent general anaesthesia</span>
+                        </li>
+                        <li>
+                            <span>unknown or inadequately documented immunisation history.</span>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+     
+        <!-- 4th Control -->
+        <div class="info-box-ctrl">
+            <div class="header rotate" data-role="infobox-header" data-tag="infobox-item-4">
+                <div class="icon">
+                    <span class="icon-img icon-img-width icon-img-up"></span>
+                </div>
+                <div class="header-text header-text-font header-text-width">
+                    <span>References</span>
+                </div>
+            </div>
+            <div class="flyout rotate flyout-margin" data-role="infobox-flyout" data-tag="infobox-item-4">
+                <div class="flyout-content flyout-text-font">
+                    <p>Advisory Committee on Immunization Practices (ACIP) (2006) MMWR 55(RR-15):30-31 www.cdc.gov/mmwr/PDF/rr/rr5515.pdf</p>
+                    <p>
+                        Aickin R, Hill D and Kemp A (1994) Measles immunisation in children with allergy to egg. <i>BMJ</i> <b>308</b>: 223–5.
+                    </p>
+                    <p>
+                        British HIV Association (2006) <i>Immunisation guidelines for HIV-infected adults</i>: www. bhiva.org/pdf/2006/Immunisation506.pdf.
+                    </p>
+                    <p>
+                        Clark AT, Skypala I, Leech SC, <i>et al</i>. (2010). British Society for Allergy and Clinical Immunology guidelines for the management of egg allergy. <i>Clin Exp Allergy</i> <b>40</b>(8):1116-29.
+                    </p>
+                    <p>
+                        English, French. Erratum in <i>Can Commun Dis Rep</i> (2005) Feb 1: <b>31</b>(3):40. www.phac-aspc.gc.ca/publicat/ccdr-rmtc/04vol30/acs-dcc-5/index.html
+                    </p>
+                    <p>
+                        Fallo A, De Matteo E, Preciado MV et al. (2005) Epstein-Barr virus associated with primary CNS lymphoma and disseminated BCG infection in a child with AIDS. <i>Int J Infect Dis</i> <b>9</b>(2): 96–103.
+                    </p>
+                    <p>
+                        Fasano MB, Wood RA, Cooke SK and Sampson HA (1992) Egg hypersensitivity and adverse reactions to measles, mumps and rubella vaccine. <i>J Pediatr</i> <b>120</b>: 878–81.
+                    </p>
+                    <p>
+                        Fox A and Lack G (2003) Egg allergy and MMR vaccination. <i>Br J Gen Pract</i> <b>53</b>: 801–2.
+                    </p>
+                    <p>
+                        Freigang B, Jadavji TP and Freigang DW (1994) Lack of adverse reactions to measles, mumps and rubella vaccine in egg-allergic children. <i>Ann Allergy</i> <b>73</b>: 486–8.
+                    </p>
+                    <p>
+                        Khakoo GA and Lack G (2000) Recommendations for using MMR vaccine in children allergic to eggs. <i>BMJ</i> <b>320</b>: 929–32.
+                    </p>
+                    <p>
+                        Kengsakul K, Sathirapongsasuti K and Punyagupta S (2002) Fatal myeloencephalitis following yellow fever vaccination in a case with HIV infection. <i>J Med Assoc Thai</i> <b>85</b>(1): 131–4
+                    </p>
+                    <p>
+                        Langley J, Ellis E and Deeks S (2004) National Advisory Committee on Immunization; Health Canada First Nations; Inuit Health Branch. Statement on Bacille Calmette-Guérin (BCG) vaccine. <i>Can Commun Dis Rep</i> <b>1</b>(30): 1–11.
+                    </p>
+                    <p>
+                        Perez EE, Bokszczanin A, McDonald-McGinn D <i>et al</i>. (2003) Safety of live viral vaccines in patients with chromosome 22q11.2 deletion syndrome (DiGeorge syndrome/ velocardiofacial syndrome). <i>Pediatrics</i> <b>112</b>(4): e325.
+                    </p>
+                    <p>
+                        Russell M, Pool V and Kelso JM <i>et al</i>. (2004) Vaccination of persons allergic to latex: a review of safety data in the Vaccine Adverse Event Reporting System (VAERS). <i>Vaccine</i> <b>23</b>(5):664-7. www.hubmed.org/display.cgi?uids=15542187
+                    </p>
+                    <p>
+                        Receveur MC, Thiebaut R, Vedy S <i>et al</i>. (2000) Yellow fever vaccination of human immunodeficiency virus-infected patients: report of two cases. <i>Clin Infect Dis</i> <b>31</b>(3): E7–8.
+                    </p>
+                    <p>
+                        Talbot EA, Perkins MD, Silva SF and Frothingham R (1997) Disseminated Bacille Calmette-Guérin disease after vaccination: case report and review. <i>Clin Infect Dis</i> <b>24</b>(6): 1139–46.
+                    </p>
+                    <p>
+                        Tattevin P, Depatureaux AG, Chapplain JM et al. (2004) Yellow fever vaccine is safe and effective in HIV-infected patients. <i>AIDS</i> <b>18</b>(5): 825–7.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
 </html>
