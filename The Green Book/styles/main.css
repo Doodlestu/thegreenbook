@@ -427,6 +427,14 @@ border-color:red;
     font-size: .8em;
     font-weight: bold;
 }
+#notetext2
+{
+    font-family: 'Calibri';
+   color: #000000;
+    font-size:.8em;
+    font-weight: bold;
+
+}
 #box
 {
     margin-right: -30px;
