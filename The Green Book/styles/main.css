@@ -467,17 +467,18 @@ border-color:red;
 }
 ul
 {
+    font-size:1.2em;
     color: #7ac446;
 }
 
 ul > li > span
-{
+{   font-size:1.2em; 
     color: #000000;
     font-weight: normal;
 }
 
 .ui-collapsible-inset .ui-collapsible-heading .ui-btn
-{
+{   
     color: #ffffff;
     background-color: #7ac446;
 }
@@ -534,5 +535,11 @@ p {
     }
     p {
     font-size: 1.5em; 
+    }
+    ul {
+    font-size:1.5em;
+    }
+	ul > li > span {
+    font-size:1.5em;     
     }
 }
