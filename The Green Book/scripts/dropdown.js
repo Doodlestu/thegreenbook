@@ -7,3 +7,4 @@ $("#accordion > li > div").click(function(){
 });
  
 $('#accordion ul:eq(0)').show();
+
