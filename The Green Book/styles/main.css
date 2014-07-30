@@ -502,7 +502,10 @@ p {
     font-size: 1.2em; 
     
 }
-
+table {
+    font-size: 1.1em;
+    
+}
 @media only screen and (min-width: 480px) {
    
     
@@ -557,5 +560,8 @@ p {
     }
 	ol > li > span {
     font-size:1.2em;     
+    }
+    table {
+    font-size: 1.2em;
     }
 }
