@@ -471,23 +471,31 @@ ul
 {
     font-size:1em;
     color: #7ac446;
+    overflow: initial;
+    
 }
 
 ul > li > span
 {   font-size:1em; 
     color: #000000;
     font-weight: normal;
+    overflow: initial;
+    
 }
 ol
 {
     font-size:1.2em;
+    overflow: initial;
    
 }
 
 ol > li > span
 {   font-size:1.2em; 
     font-weight: normal;
+    overflow: initial;
+    
 }
+
 
 
 .ui-collapsible-inset .ui-collapsible-heading .ui-btn
@@ -500,17 +508,21 @@ ol > li > span
 {
     margin: 10px;
     font-family: 'Calibri';
+    overflow: initial;
+   
 }
 
 p {
     font-size: 1.2em;
     font-family: 'Calibri';
+    overflow: initial;
+    
     
 }
 table {
     font-size: 1.1em;
     font-family: 'Calibri';
-    
+    overflow: initial;
 }
 @media only screen and (min-width: 480px) {
    
