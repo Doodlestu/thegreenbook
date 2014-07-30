@@ -296,25 +296,27 @@ border-style:solid;
 border-color:red;
 }*/
 
+
+
 @font-face {
-    font-family: 'Calibri';
-    src: url('calibri-webfont.eot');
-    src: url('calibri-webfont.eot?#iefix') format('embedded-opentype'),
-         url('calibri-webfont.woff') format('woff'),
-         url('calibri-webfont.ttf') format('truetype'),
-         url('calibri-webfont.svg#CalibriRegular') format('svg');
-    font-weight: bold;
+    font-family: 'calibrii';
+    src: url('calibrii-webfont.eot');
+    src: url('calibrii-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calibrii-webfont.woff') format('woff'),
+         url('calibrii-webfont.ttf') format('truetype'),
+         url('calibrii-webfont.svg#calibriitalic') format('svg');
+    font-weight: normal;
     font-style: normal;
 
 }
 
 @font-face {
     font-family: 'Myriad Pro';
-    src: url('calibri-webfont.eot');
-    src: url('calibri-webfont.eot?#iefix') format('embedded-opentype'),
-         url('calibri-webfont.woff') format('woff'),
-         url('calibri-webfont.ttf') format('truetype'),
-         url('calibri-webfont.svg#CalibriRegular') format('svg');
+    src: url('MYRIADPROREGULAR.eot');
+    src: url('MYRIADPROREGULAR.eot?#iefix') format('embedded-opentype'),
+         url('MYRIADPROREGULAR.woff') format('woff'),
+         url('MYRIADPROREGULAR.ttf') format('truetype'),
+         url('MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
     font-weight: bold;
     font-style: normal;
 
@@ -496,14 +498,17 @@ ol > li > span
 .font
 {
     margin: 10px;
+    font-family: 'Calibri';
 }
 
 p {
-    font-size: 1.2em; 
+    font-size: 1.2em;
+    font-family: 'Calibri';
     
 }
 table {
     font-size: 1.1em;
+    font-family: 'Calibri';
     
 }
 @media only screen and (min-width: 480px) {
