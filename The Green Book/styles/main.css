@@ -418,7 +418,9 @@ border-color:red;
     font-weight: bold;
 }
 
-.heading01{
+#heading01{
+   font-family: 'Calibri';
+     font-size: 1.2em;
     color:#939598; 
     font-weight: bold;
 }
@@ -516,7 +518,8 @@ p {
     font-size: 1.2em;
     font-family: 'Calibri';
     overflow: initial;
-    
+    display: inline-block;
+    white-space: wrap;
     
 }
 table {
@@ -524,6 +527,7 @@ table {
     font-family: 'Calibri';
     overflow: initial;
 }
+
 @media only screen and (min-width: 480px) {
    
     
