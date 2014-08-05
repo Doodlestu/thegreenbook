@@ -426,6 +426,13 @@ border-color:red;
     font-weight: bold;
     
 }
+#sixthtitle {
+    font-family: 'Calibri';
+    font-size: 1.2em;
+    color: #000000;
+    font-weight: bold;
+    
+}
 
 #heading01{
    font-family: 'Calibri';
@@ -599,5 +606,14 @@ table {
     }
     table {
     font-size: 1.2em;
+    }
+     #fifthtitle {
+    font-size: 1.2em;
+    }
+    #fifthtitle2 {
+    font-size: 1.3em;
+	}
+    #sixthtitle {
+    font-size: 1.8em;
     }
 }
