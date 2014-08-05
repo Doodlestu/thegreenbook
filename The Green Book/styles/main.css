@@ -317,7 +317,7 @@ border-color:red;
          local('Fonts/MYRIADPROREGULAR.woff') format('woff'),
          local('Fonts/MYRIADPROREGULAR.ttf') format('truetype'),
          local('Fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
-    font-weight: bold;
+    font-weight: mormal;
     font-style: normal;
 
 }
@@ -417,6 +417,14 @@ border-color:red;
     color: #000000;
     font-weight: bold;
     margin-left: 12px;
+}
+#fifthtitle2
+{
+    font-family: 'Calibri';
+    font-size: 1.1em;
+    color: #000000;
+    font-weight: bold;
+    
 }
 
 #heading01{
@@ -518,9 +526,9 @@ ol > li > span
 p {
     font-size: 1.2em;
     font-family: 'Calibri';
-    overflow: initial;
+    /*overflow: initial;
     display: inline-block;
-    white-space: wrap;
+    white-space: wrap;*/
     
 }
 table {
@@ -528,7 +536,12 @@ table {
     font-family: 'Calibri';
     overflow: initial;
 }
-
+.subbullet {
+    font-size: 1.1em;
+    font-family: 'Calibri';
+    overflow: initial;
+   
+}
 @media only screen and (min-width: 480px) {
    
     
