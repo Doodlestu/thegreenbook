@@ -54,7 +54,7 @@
     width: 100%;
     text-decoration: none !important;
     padding-top: 15px;
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.5em; 
     text-align: center;
     color: #ffffff; 
@@ -120,7 +120,7 @@
 
 .header-text-font
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.2em;
 }
 
@@ -145,7 +145,7 @@
 
 .flyout-text-font p, ol, li, strong, th, td
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
 }
 
 /*.ui-icon-young-people {
@@ -298,35 +298,35 @@ border-color:red;
 
 
 
+
 @font-face {
-    font-family: 'calibrii';
-    src: url('Fonts/calibrii-webfont.eot');
-    src: url('Fonts/calibrii-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/calibrii-webfont.woff') format('woff'),
-         url('Fonts/calibrii-webfont.ttf') format('truetype'),
-         url('Fonts/calibrii-webfont.svg#calibri') format('svg');
+    font-family:"Vegur-Regular";
+    src:url("Vegur-R_0_600.eot?") format("eot"),
+    url("Vegur-R_0_600.woff") format("woff"),
+    url("Vegur-R_0_600.ttf") format("truetype"),
+    url("Vegur-R_0_600.svg#Vegur-Regular") format("svg");
+    font-weight:normal;
+    font-style:normal;}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('OpenSans-Regular-webfont.eot');
+    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 
-@font-face {
-    font-family: 'Myriad Pro';
-    src: url('Fonts/MYRIADPROREGULAR.eot');
-    src: url('Fonts/MYRIADPROREGULAR.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/MYRIADPROREGULAR.woff') format('woff'),
-         url('Fonts/MYRIADPROREGULAR.ttf') format('truetype'),
-         url('Fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
-    font-weight: mormal;
-    font-style: normal;
 
-}
 
 
 .Bttnstyle01 a
 {
     text-decoration: none !important;
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     padding: 10px 30px;
     background: #00a95c;
     color: #ffffff;
@@ -340,7 +340,7 @@ border-color:red;
 .Bttnstyle02 a
 {
     text-decoration: none !important;
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     padding: 10px 30px;
     background: #7ac446;
     border-width: 3px;
@@ -355,7 +355,7 @@ border-color:red;
 
 #maintitle
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 2em;
     color: #00a95c;
     font-weight: bold;
@@ -363,7 +363,7 @@ border-color:red;
 }
 #maintitle2
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.3em;
     color: #7ac446;
     font-weight: bold;
@@ -371,7 +371,7 @@ border-color:red;
 }
 #tablehead
 { 
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.2em;
     color: #228B22;
     font-weight: bold;
@@ -379,7 +379,7 @@ border-color:red;
 
 #tabletext
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1em;
     color: #228B22;
     font-weight: bold;
@@ -387,7 +387,7 @@ border-color:red;
 
 #secondtitle
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1em;
     color: #00a95c;
     font-weight: bold;
@@ -396,7 +396,7 @@ border-color:red;
  
 #thirdtitle
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 2em;
     color: #7ac446;
     font-weight: bold;
@@ -404,7 +404,7 @@ border-color:red;
 
 #fourthtitle
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.5em;
     color: #303030;
     font-weight: bold;
@@ -412,7 +412,7 @@ border-color:red;
 
 #fifthtitle
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.1em;
     color: #000000;
     font-weight: bold;
@@ -420,14 +420,14 @@ border-color:red;
 }
 #fifthtitle2
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.1em;
     color: #000000;
     font-weight: bold;
     
 }
 #sixthtitle {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     font-size: 1.2em;
     color: #000000;
     font-weight: bold;
@@ -435,21 +435,21 @@ border-color:red;
 }
 
 #heading01{
-   font-family: 'Calibri';
+   font-family: 'open_sansregular';
      font-size: 1.2em;
     color:#939598; 
     font-weight: bold;
 }
 #notetext
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     color: #228B22;
     font-size: .8em;
     font-weight: bold;
 }
 #notetext2
 {
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
    color: #000000;
     font-size:.8em;
     font-weight: bold;
@@ -460,7 +460,7 @@ border-color:red;
     margin-right: -30px;
     margin-top: -40px;
     float: right;
-    font-family: 'Calibri';
+    font-family: 'Vegur-Regular';
     padding: 20px 20px;
     font-size: 1.2em;
     color: #ffffff;
@@ -477,7 +477,7 @@ border-color:red;
     margin-right: -10px;
     margin-top: -40px;
     float: right;
-    font-family: 'Myriad Pro';
+    font-family: 'Vegur-Regular';
     padding: 15px 15px;
     font-size: 2em;
     color: #ffffff;
@@ -525,14 +525,14 @@ ol > li > span
 .font
 {
     margin: 10px;
-    font-family: 'Calibri';
-    overflow: initial;
+    font-family: 'open_sansregular';
+    
    
 }
 
 p {
     font-size: 1.2em;
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     /*overflow: initial;
     display: inline-block;
     white-space: wrap;*/
@@ -540,12 +540,12 @@ p {
 }
 table {
     font-size: 1.1em;
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     overflow: initial;
 }
 .subbullet {
     font-size: 1.1em;
-    font-family: 'Calibri';
+    font-family: 'open_sansregular';
     overflow: initial;
    
 }
@@ -590,7 +590,7 @@ table {
     font-size: 3em;
     }
     p {
-    font-size: 1.5em; 
+    font-size: 1.4em; 
     }
     ul {
     font-size:1.2em;
