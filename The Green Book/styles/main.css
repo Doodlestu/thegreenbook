@@ -300,11 +300,11 @@ border-color:red;
 
 @font-face {
     font-family: 'calibrii';
-    src: local('Fonts/calibrii-webfont.eot');
-    src: local('Fonts/calibrii-webfont.eot?#iefix') format('embedded-opentype'),
-         local('Fonts/calibrii-webfont.woff') format('woff'),
-         local('Fonts/calibrii-webfont.ttf') format('truetype'),
-         local('Fonts/calibrii-webfont.svg#calibri') format('svg');
+    src: url('Fonts/calibrii-webfont.eot');
+    src: url('Fonts/calibrii-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/calibrii-webfont.woff') format('woff'),
+         url('Fonts/calibrii-webfont.ttf') format('truetype'),
+         url('Fonts/calibrii-webfont.svg#calibri') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -312,11 +312,11 @@ border-color:red;
 
 @font-face {
     font-family: 'Myriad Pro';
-    src: local('Fonts/MYRIADPROREGULAR.eot');
-    src: local('Fonts/MYRIADPROREGULAR.eot?#iefix') format('embedded-opentype'),
-         local('Fonts/MYRIADPROREGULAR.woff') format('woff'),
-         local('Fonts/MYRIADPROREGULAR.ttf') format('truetype'),
-         local('Fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    src: url('Fonts/MYRIADPROREGULAR.eot');
+    src: url('Fonts/MYRIADPROREGULAR.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/MYRIADPROREGULAR.woff') format('woff'),
+         url('Fonts/MYRIADPROREGULAR.ttf') format('truetype'),
+         url('Fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
     font-weight: mormal;
     font-style: normal;
 
