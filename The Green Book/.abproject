@@ -38,7 +38,7 @@
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
   ],
-  "BundleVersion": "1.0",
+  "BundleVersion": "1.2",
   "Framework": "Cordova",
   "DisplayName": "",
   "Author": "",
@@ -48,7 +48,7 @@
     "2"
   ],
   "iOSBackgroundMode": [],
-  "AndroidVersionCode": "2",
+  "AndroidVersionCode": "3",
   "WP8TileTitle": "",
   "WP8ProductID": "{3a8117ab-bf02-4314-843a-e016241af359}",
   "WP8PublisherID": "{2e637153-11b2-44a9-80f5-56eb42f0154c}",
