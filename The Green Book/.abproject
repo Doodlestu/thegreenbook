@@ -48,11 +48,16 @@
     "2"
   ],
   "iOSBackgroundMode": [],
-  "AndroidVersionCode": "3",
+  "AndroidVersionCode": "4",
   "WP8TileTitle": "",
   "WP8ProductID": "{3a8117ab-bf02-4314-843a-e016241af359}",
   "WP8PublisherID": "{2e637153-11b2-44a9-80f5-56eb42f0154c}",
   "WP8Publisher": "",
   "WP8Capabilities": [],
-  "WP8Requirements": []
+  "WP8Requirements": [],
+  "CordovaPluginVariables": {
+    "com.telerik.Cordova-MobileTestingExtension": {
+      "IOS_APP_URL": ""
+    }
+  }
 }
